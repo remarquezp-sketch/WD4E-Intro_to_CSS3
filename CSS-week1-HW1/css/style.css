@@ -68,3 +68,32 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+/* Skip Link Styling */
+.skip {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip:focus {
+  top: 0;
+}
+
+/* Flexbox and Grid Layouts */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
